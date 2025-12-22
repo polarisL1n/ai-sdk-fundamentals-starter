@@ -27,8 +27,8 @@ This 12-hour course is divided into three sections:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/vercel/build-an-ai-app-starter-aug-25.git
-cd build-an-ai-app-starter-aug-25
+git clone https://github.com/vercel/ai-sdk-fundamentals-starter.git
+cd ai-sdk-fundamentals-starter
 ```
 
 ### 2. Install Dependencies
@@ -81,9 +81,11 @@ Open [http://localhost:3000](http://localhost:3000) to see the tutorial navigati
 This starter includes code for all course lessons:
 
 ### Command-Line Lessons
+
 Run these lessons using the provided npm scripts:
 
 - **Lesson 1: Extraction** - Extract structured data from text
+
   ```bash
   pnpm run extraction
   ```
@@ -94,6 +96,7 @@ Run these lessons using the provided npm scripts:
   ```
 
 ### Interactive Lessons
+
 Access these through the web interface at [http://localhost:3000](http://localhost:3000):
 
 - **Lesson 3: Summarization** - Summarize message conversations
@@ -117,6 +120,7 @@ Access these through the web interface at [http://localhost:3000](http://localho
 ## About Vercel AI Gateway
 
 Vercel AI Gateway provides:
+
 - **Unified API** - Switch between AI providers without code changes
 - **High Reliability** - Automatic request retries and failover
 - **Monitoring** - Track usage and spending across providers
@@ -143,4 +147,4 @@ Vercel AI Gateway provides:
 
 The easiest way to deploy your AI application is using the [Vercel Platform](https://vercel.com).
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/build-an-ai-app-starter-aug-25)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/ai-sdk-fundamentals-starter)
